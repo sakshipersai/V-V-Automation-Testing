@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents[
+<!ELEMENT allstudents (student)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>
+<allstudents>
+<student>
+<name>Ajay</name>
+<email>ajay@mail.com</email>
+<contact>9999999999</contact>
+<address>kolkata</address>
+</student>
+</allstudents>
