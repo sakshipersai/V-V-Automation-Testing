@@ -1,0 +1,7 @@
+<!-- Students.dtd>
+
+
+<!ELEMENT students (student*)>
+<!ELEMENT student (name,phone+)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT phone (#PCDATA)>

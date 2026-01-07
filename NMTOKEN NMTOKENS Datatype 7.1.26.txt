@@ -1,0 +1,38 @@
+mytest.dtd:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT allstudents (student*)
+<!ELEMENT student (ANY)>                                                   
+<!ELEMENT name(#PCDATA)|firstname|lastname)*>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address type NMTOKEN "home" >                                        <!--only single value>
+<!--<!ATTLIST address type NMTOKENS "home" >         will take multilple values like home office college etc.>>
+
+
+
+
+
+
+
+
+
+testapp.xml:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>My name us<firstname>Ajay</firstname><>lastname>golina</lastname>
+<email>ajay@capgemini.com</email>
+<contact>1234</contact>
+<address type="office">Pune</address>                                             <!--it gives error since PCDATA doesn't allow special chars>
+<address type="home office college">Mumbai</address>                                               <!--accepts special char @ since CDATA allows special char >
+
+</student>
+</allstudents>

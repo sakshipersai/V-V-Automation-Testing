@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT allstudents (student*)
+<!ELEMENT student (ANY)>                                                   <!-- Any tag>
+<!ELEMENT name(#PCDATA)|firstname|lastname)*>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>My name us<firstname>Ajay</firstname><>lastname>golina</lastname>   <!--child only tag>
+<email>ajay@capgemini.com</email>  
+<contact>1234</contact>
+<address>Pune</address>                                                   <text only tag>
+</student>
+</allstudents>

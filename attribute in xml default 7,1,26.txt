@@ -1,0 +1,38 @@
+mytest.dtd:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT allstudents (student*)
+<!ELEMENT student (ANY)>                                                   
+<!ELEMENT name(#PCDATA)|firstname|lastname)*>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address type CDATA "home" >                                        <!--IF WE FORGOT ANY SPEFIFIER, IT WILL BE "DEFAULT">
+
+
+
+
+
+
+
+
+
+
+testapp.xml:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>My name us<firstname>Ajay</firstname><>lastname>golina</lastname>
+<email>ajay@capgemini.com</email>
+<contact>1234</contact>
+<address type="office">Pune</address>                                             <!--it will take office also and home also since its default">
+<address type="home">Mumbai</address>                                               <!-- here it will  take home and office both>
+
+</student>
+</allstudents>

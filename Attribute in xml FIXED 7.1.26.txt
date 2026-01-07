@@ -1,0 +1,38 @@
+mytest.dtd:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT allstudents (student*)
+<!ELEMENT student (ANY)>                                                   
+<!ELEMENT name(#PCDATA)|firstname|lastname)*>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address type CDATA #FIXED "home">                                        <!-->
+
+
+
+
+
+
+
+
+
+
+testapp.xml:
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>My name us<firstname>Ajay</firstname><>lastname>golina</lastname>
+<email>ajay@capgemini.com</email>
+<contact>1234</contact>
+<address type="office">Pune</address>                                             <!--it will cause error here, cuz it will be fixed as taking only "home">
+<address type="home">Mumbai</address>                                               <!-- here it will only take home>
+
+</student>
+</allstudents>

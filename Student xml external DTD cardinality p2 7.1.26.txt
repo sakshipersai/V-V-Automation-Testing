@@ -1,0 +1,10 @@
+<!--XML file>
+
+
+<!DOCTYPE students SYSTEM "students.dtd">
+<students
+ <student>
+<name>Ajay</name>
+<phone>1234</phone>
+</student>
+</students>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>My name us<firstname>Ajay</firstname><>lastname>golina</lastname>
+<email>ajay@capgemini.com</email>
+<contact>1234</contact>
+<address type="office">Pune</address>                                             <!-- here "type" is an attribute>
+</student>
+</allstudents>

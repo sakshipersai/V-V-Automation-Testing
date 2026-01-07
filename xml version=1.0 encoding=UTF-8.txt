@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE allstudents SYSTEM "mytest.dtd">
+<allstudents>
+<student>
+<name>AJAY</name>
+<email>Ajay.com</email>
+<contact>7878787</contact>
+<contact>4545454545</contact>
+<address></address>
+</student?
+</allstudents>
