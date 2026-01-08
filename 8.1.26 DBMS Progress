@@ -1,0 +1,15 @@
+Database Management System.
+Data Analysis and Data Science
+Relational Database & Non-Relational Database.
+Database Architecture : one tier, two tier, third tier.
+CRUD Operations
+
+SQL: Postgres:-------
+
+CREATE table
+INSERT into table
+SELECT FROM Table
+DELETE FROM Table
+
+SORT: ASC & DESC
+MIN & MAX 
