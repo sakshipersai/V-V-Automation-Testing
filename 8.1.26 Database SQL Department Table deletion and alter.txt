@@ -1,0 +1,7 @@
+DELETE FROM "MyTable'
+  WHERE <conditon>;
+
+ALTER TABLE "MyTable" DROP COLUMN Marks
+
+UPDATE "MyTable" SET Marks= 70 WHERE stuid=1;
+UPDATE "MyTable" SET Marks= 70 WHERE stuid=2;
