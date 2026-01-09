@@ -1,0 +1,38 @@
+create database JDB;    //immedietly execute this using bolt icon
+use JDB;
+
+
+create table empinfo(
+emp_id INT PRIMARY KEY,
+emp_name VARCHAR(100),
+pid_id INT            //foreign key
+);
+
+
+
+create table perinfo(
+pid_id INT PRIMARY KEY,
+pid_name varchar(100) NOT NULL
+);
+
+insert into empinfo(emp_id,emp_name,pid_id) values(1,'Ajay',10);
+insert into empinfo(emp_id,emp_name,pid_id) values(2,'Amit',20);
+insert into empinfo(emp_id,emp_name,pid_id) values(3,'Akash',30);
+insert into empinfo(emp_id,emp_name,pid_id) values(4,'Aman',Null);
+
+insert into perinfo(pid_id,pid_name) values(10,'HR');
+insert into perinfo(pid_id,pid_name) values(20,'ADMIN');
+insert into perinfo(pid_id,pid_name) values(30,'DEVELOPER');
+
+
+
+SELECT e.em_name,p.pid_name FROM empinfo e                                      //INNER JOIN 
+INNER JOIN perinfo p ON e.pid_id=p.pid_id;                                     
+
+
+SELECT e.emp_name,p.pid_name FROM empinfo e                                     //LEFT OUTER JOIN
+LEFT JOIN perinfo p ON e.pid_id=p.pid_id;
+
+
+SELECT e.emp_name=p.pid_name FROM empinfo e                                     //RIGHT JOIN
+RIGHT JOIN perinfo p ON e.pid_id=p.pid_id;

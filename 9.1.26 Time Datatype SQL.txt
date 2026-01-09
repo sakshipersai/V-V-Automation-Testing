@@ -1,0 +1,15 @@
+create table delivered(
+Pid INT,
+isdelivered BOOLEAN,
+delivery_time TIME
+);
+
+INSERT INTO delivered(Pid,isdelivered, delivery_time)
+VALUES
+(20110,TRUE,'20:30:14'),
+(20111,FALSE,NULL),
+(201112,FALSE,NULL),
+(20113,TRUE,'17:15:34');
+
+SELECT * 
+FROM delivered;

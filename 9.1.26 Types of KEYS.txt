@@ -1,0 +1,19 @@
+create database PDB;
+use PDB;
+create table empinfotest(
+emp_id INT PRIMARY KEY,
+emp_name VARCHAR(100),
+emp_address varchar(100),
+pid_id INT
+);
+
+insert into empinfotest(emp_id,emp_name,emp_address,pdid) values(1,'Ajay','pune',10)
+insert into empinfotest(emp_id,emp_name,emp_address,pdid) values(1,'Amit','Mumbai',10)          // error will come here since emp_id is a primary key.//
+insert into empinfotest(emp_id,emp_name,emp_address,pdid) values(Null,'amitabh','Mumbai',10)    //error as primary key can't be NULL
+
+
+TYPES OF KEYS:
+primary
+composite
+alternate
+foreign

@@ -1,0 +1,17 @@
+OrderId	      ProductName	    OrderDate
+1	      chips                2008-11-11
+2	      biscuits             2008-11-09
+3	      waffle               2008-11-11
+4	     Rice bowl  	   2008-10-29
+
+
+
+
+
+SELECT * FROM Orders WHERE OrderDate='2008-11-11'
+
+
+
+OrderId	ProductName	 OrderDate
+1	chips	        2008-11-11
+3	waffle	        2008-11-11

@@ -1,0 +1,16 @@
+create table orders(
+Pname VARCHAR(255),
+order_date DATE,
+quantity INT,
+p_price DECIMAL
+);
+
+INSERT INTO orders(Pid,Pname,quantity,order_date,p_price)
+VALUES
+(20110,'Kite',20,'2026-01-01',100.0),
+(20111,'Bag',12,'2026-01-22',70.65),
+(20112,'computer',5,'2026-01-12',30.00),
+(20113,'milk',50,'2025-12-20',28.50);
+
+SELECT *
+FROM orders;
