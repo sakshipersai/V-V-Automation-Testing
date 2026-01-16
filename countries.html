@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Website
+        </title>
+        //<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="myForm">
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button type="sumbit">Submit</button>
+        </form>
+        <div class="user-details">
+            <h3>user Details</h3>
+            <h2 id = "name" style=" color:blue;">
+            </h2>
+        </div>
+        <div>
+            <label for="country">Select a country</label>
+            <select id="country" onchange="handleChange()" > <!--country is the target element-->
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="UAE">UAE</option>
+            <option value="India">India</option>
+            </select>
+<p id="txt"></p>
+        </div>
+        <!-- <div  id="box"-->
+       
+
+        <script src="countries.js"></script>
+
+    </body>
+</html>
