@@ -1,2 +1,1 @@
-var num =30;
-console.log(num);
+console.log("We are learning typescript!");
