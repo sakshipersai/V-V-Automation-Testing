@@ -10,4 +10,5 @@ const capitals = {
         return "I work in"  + this.MH
     }
 }
-document.write(capitals.MH)
+capitals.
+document.write(capitals.india
