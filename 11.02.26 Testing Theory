@@ -1,0 +1,191 @@
+Testing:
+
+-software testing is a method/process to rectify/check if the output is matching with the expected/actual or not.
+-Should ensure that software is defect free.
+-The purpose of software testing is identifying the bugs and ensuring the product quality
+
+
+1.)Manual testing
+2.)Automation testing(auto testing)
+
+
+1.)Manual testing:
+
+Manually check and complete the tests and rectify the errors.
+As per the business requirement , they tests the software.
+
+manually find the bugs .
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+->It's prone to human errs
+->Test scenarios , QTP
+-> Selenium: not suitable for all browsers, requires huge codes.
+->Playwright: 
+
+
+
+
+2.)Automation testing:
+
+->Tools will check your code.
+->directly gives the output.
+
+
+
+
+
+Software Testing---------->
+
+         1----> MANUAL TESTING----->
+
+         ->SDLC(Dev Process(Agile)). -> STLC(Testing process) ->BLC(bug lifecycle), ->Verification & Validation, ->JIRA Tools
+
+
+
+        2---->AUTOMATION TESTING----->
+        ->Playwright, ->Selenium -Tool, -> TestNG -Framework, ->Java programming lang, ->POM- Design Pattern, ->Maven-Build Management Tool, -> Hybrid        &cucumber framework
+
+
+
+
+
+
+WHY SOFTWARE TESTING IS IMPORTANT?:
+
+
+-If there are any bugs or errors in the software, it can be identified early and can be solve before delivery of the software.
+
+-Without proper testing, application will release to the market then there is a high chance to get software failures.
+
+-Failure is a high cost effect to the software.
+
+
+
+
+
+->Identifying the bugs
+->Product Quality
+->Reduce the failures
+
+
+
+
+
+
+
+BENEFITS OF SOFTWARE TESTING:
+
+1.)Cost effective
+2.)Security
+3.)Quality
+4.)Customer satisfaction (when the actual and expected are almost similar)
+
+
+
+
+
+MANUAL TESTING:
+
+1.)Process of testing the software by manually to find the defects.
+2.)Usually it includes verifying all requirement documents and validating the functional(adding something to cart ) & non-functionality(speed, performance, maintenance,security).
+
+-->Using test Design Techniques.
+-->Preparing Test Scenarios , Test cases & Test Data.
+We can find defects in software (Using STLC Phases).
+
+
+
+--> finding the bug is a GOOD TESTERS JOB.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+AUTOMATION TESTING:
+
+Automation testing is the process of testing tyhe software by usinf testing tools to control the e
+
+
+In this process, tester executes the test script and generate the test results automatically by using tools()example, playwright and typewright.
+
+
+
+
+
+
+TYPES OF SOFTWARES:
+
+
+
+
+
+
+PROJECT AND PRODUCT:
+
+project: service based , for specific banks or industry
+
+product: a kind of product which a company works on , eg, google.
+
+
+
+
+ERROR/DEFECT/FAILURE:
+
+ERROR: developer phase(at developer side
+
+DEFECT: Testing environement (testing side)(suppose customer forgets to turn on the internet and faces an issues.)
+
+BUG: when a developer/tester accepts after trying technical small errors that the sogftware of not working properly then the dveeloper marks it as a bug which is a software problem.(error or a probelm accepted by the devdeloper)
+
+FAILURE: After releasing the software into the market, the software shows errors then it is said to have caused the failure into the software. 
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+QUALITY :
+
+->CUSTOMER satisfaction is called quality.(when actual and expected meets right)
+
+_________________________________________________________________________________________________________
+
+
+QUALITY MEASUREMENTS ARE:
+
+->All the requirements satisfaction.
+-> Defect free.
+->Within a budget.
+->On time delivery.
+->Maintainable.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+QA & QC
+
+QA: Quality Assurance ---> Verification
+QC: Quality Control   ---> Validation
+
+
+testers are either divided into QA or QC.
+
+
+QA: will talk to customers, before going to QC, they try to rectify the mistake. 
+
+QC: check the code and finding the bug, developer will find the bug, the program/code
+
+
+
