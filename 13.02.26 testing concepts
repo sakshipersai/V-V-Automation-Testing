@@ -1,0 +1,472 @@
+# ***SDLC LIFE CYCLE:***
+
+
+
+
+
+
+
+-REQ GATHERING
+
+-DESIGN PATTERN 
+
+-ANALYSIS
+
+-DEVELOPER
+
+-TESTERS: system testing 
+
+(bug life)
+
+-MAINTENANCE
+
+
+
+-FUNCTIONALITY TEST
+
+
+
+
+
+##### 
+
+##### ***STEPS/CHRONOLOGY:***
+
+
+
+-REQ GATHERING (BA(Business Analyst))->(BRS(business requirement specifications) OR CRS(client req specifications))
+
+-ANALYSIS ->SA(System Analytics) or Manager SRS document
+
+-DESIGN PATTERN (ARCHITECt)(HLD,LLD)
+
+-DEVELOPMEMT (developers)
+
+-TESTING (testing) ->finding the defects and quality checks and follows STLC
+
+-(MAINTENANCE)
+
+-CLOSE
+
+
+
+
+
+
+
+*HLD: High level document (many modules are required, ex;amazon website)*
+
+*LLD: Low Level document  (single modules or less modules, ex;gmail)*
+
+
+
+
+
+*-------------------------------------------------------------------------------------------------------------------------------------------*
+
+
+
+
+
+
+
+## <b>STLC(Software Tester Life Cycle):</b>
+
+
+
+
+
+-REQUIREMENT GATHERING
+
+-TEST PLANNING          (MANUAL or AUTOMATION AND browser support)(scheduling)
+
+-TEST DESIGN            (writing tets cases and test scenarios)
+
+-TEST ENVIRONMENT       (needs jdk, sonarqube, jenkins, eclipse, databases, servers: are workspace)
+
+-TEST EXECUTION         (it will check actual and expected are same or not.)
+
+-TEST REPORT            (if actual=eqpected, it will pass; or else again it will go for req gathering again)
+
+-TEST CLOSER            (after actual=expected, this will come to a close)
+
+
+
+
+
+
+
+*Requirement Clarification Model(RCM)*
+
+*Requirement understanding document(RUD)*
+
+
+
+
+
+
+
+<b>-client document</b> *contains whatever things and elemenets which needs to be added or contained.*
+
+
+
+*-when we can't find out bugs manually, when things are complicated, that time we use AUTOMATION TESTING.*
+
+
+
+
+
+<b>-Test Case:</b>      how to test
+
+**-Test Scenario:**  what to test
+
+**-Test design:**    writing test cases and test scenarios.
+
+
+
+
+
+**-Automation tools:** Selenium, playwright
+
+
+
+-Test Environment
+
+
+
+
+
+
+
+
+
+*-------------------------------------------------------------------------------------------------------------------------------------------------------*
+
+
+
+
+
+# *BUG LIFECYCLE:(BLC)*
+
+
+
+NEW ---->ASSIGN(-->reject,-->hold,-->as per design)---->OPEN(-->duplicate,-->deffered)---->FIXED---->RE-TESTING(-->pass-->close, -->fail-->re-open-->ASSIGN)
+
+
+
+
+
+-Bug number
+
+
+
+**-duplicate:** when two or more people get the same type of bug but report it as diff bug numbers(repeated)
+
+**-deffered:** not an important bug(not priority)
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+# SOFTWARE TESTING:
+
+
+
+
+
+
+
+-------------------------------------------------------------
+
+|                                                           |
+
+MANUAL                                                   AUTOMATION
+
+(static testing)                                         (dynamic testing)
+
+|
+
+|---Reviews                                    -------------------------------------
+
+|---Inspection                                 |                                   |
+
+|---walk through                              white box testing                Black    box    testing
+
+|                                              |                                |-system             |-user account
+
+|                                       ----------------------                  |-non functional
+
+&nbsp;                                       |                    |                  |-functionality
+
+&nbsp;                                   unit testing        integration testing
+
+&nbsp;                                       |                 ------------------------
+
+&nbsp;                                       |-error           |-incremental          |-non-incremental
+
+&nbsp;                                       |-condition       |-Top Down             |-Big bag
+
+&nbsp;                                       |-path            |-Bottom up
+
+&nbsp;                                       |-looping         |-hybrid
+
+
+
+
+
+
+
+GREY BOX TESTER: does everything(development + testing)(white box + black box)
+
+
+
+
+-System testing
+-User acceptance testing
+
+
+-------------------------------------------
+
+BLACK BOX: functional and non-functional testing(tester will do)
+
+
+functional testing: functionality correct or right or not
+
+non-functional testing: perfromnace(time,speed,browser compatibility,security,maintenance)
+
+
+
+--------------------------------------------
+
+
+-White box testing : Developer will do this.
+
+
+
+&nbsp;      -unit testing: comma spelling, user code etc
+
+
+
+&nbsp;      -integration testing: backend and front end any issues during , looping, semi-colons, logic etc, developer will take care
+
+
+
+
+
+
+
+-Black box testing: system testing(testers will do this.)
+
+&nbsp;      -
+
+
+-self review
+-peer review: giving work to your team mate
+-insepection: 
+walkthrough: no prior info abnout the inspection 
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+VERIFICATION AND VALIDATION:
+
+
+It is a process before development checking, verifiying that the software . if it is devdelopable or not. also known as . QA team will prevent defects.
+
+
+
+QC; Quality control: 
+check thr defects
+
+
+-Validation follows and levels of testing:
+  -1.Unit testing
+  -2.Integration testing
+  -3.System testing
+  -4.User acceptance testing
+
+
+
+
+//(User Acceptance Testing: )
+
+------------------------------------
+
+
+SMOKE TESTING:
+
+-basic testing functionalities
+
+
+
+-------------------------------------
+
+REGRESSION TESTING:
+
+when modification happen, again we do the testing
+
+works for a particular area
+
+
+------------------------------------------
+
+DATABASE TESTING:
+
+ validate the backend process(java,python)
+
+
+
+types:
+-data validity :data insertion proper or not
+-data integrity : updation properly updating or not
+-data volume: data capacity
+
+
+
+Boundary value analysis(BVA):
+
+-
+
+-------------------------------------------------
+
+EXHAUSTIVE TESTING
+
+we need to check all types of scenarios
+
+
+
+
+
+
+TEST CASES AND TEST SCENARIOS
+(take one example of a website... and differentiate things into these two sections)
+
+1.)Test Scenario:
+it's high level functionality that needs to be tested.
+what to test --gmail
+
+2.)Test Case:
+detailed step-by-step verification of a scenario
+
+HOW TO TEST:
+ 1.)Test Step
+ 2.)Test Data
+ 3.)Expected result
+
+
+
+TEST SCENARIOS FOR GMAIL APPLICATION:
+-login functiuonality
+  -veify login with valid credentials
+  -verify login with invalid password
+  -verify login with invalid username
+  -verify with the empty fields
+
+
+
+-compose functionality
+  -verify user can compose a new mail
+  -verify email sent successfully
+  -verify attachment upload
+  -verify sent without subject
+  -verify CC and BCC functionality
+
+
+
+-inbox functionality
+  -verify received email appears in inboc
+  -verify unread/read status
+  -verify search email functionality
+  -verify pagination or scrolling
+
+
+
+-logout functionality    
+  -login successfully
+  -verify session timeout
+  -
+
+
+
+TEST CASE STEPS:
+Test case 
+ -open browser
+
+
+test data 
+expectwed result
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+TEST CASE ID :  TC ID 001:-
+=========================
+
+
+scenario: Login  with valid credentials
+
+
+Test Step-
+_________
+
+Open the browser and navigate to 
+
+Enter valid email
+
+enter valid password
+
+Click Login
+
+
+
+
+Test Data-
+__________
+
+URL 
+www.gmail.com
+
+abc@gmail.com
+
+**********
+
+
+
+
+Expected Result-
+_______________
+
+Gmail login page displayed
+
+Email accepted
+
+Login succesfull
+
+dashboard
+
+
+
+
+as per scenario, will get test case
+
+test scenario based on imagination.... what all things can be considered and can go wrong.
+
+
