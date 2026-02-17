@@ -1,0 +1,123 @@
+### AGILE METHODOLOGY:
+
+
+
+-1. Project->small iterations
+
+
+
+-Requirement gathering
+
+collect requirement from client
+
+create produvt backlogs(list of usr stories)
+
+
+
+
+
+2\. Sprint planning
+
+select high \[riority from backlog
+
+sprint goal(2-4 weeks)
+
+assign task to team members
+
+
+
+
+
+3\. daily stand-up meetings(15mins)
+
+-what you did yesterday
+
+-what will I do today
+
+--.>ANY BLOCKERS
+
+
+
+
+
+
+
+
+
+
+
+###### TESTING AND INTEGRATION:
+
+
+
+
+
+continuous testing
+
+fix bugs quickly
+
+integrate new features regularly
+
+
+
+
+
+
+
+STEPS:
+
+
+
+Requirement gathering
+
+sprint planning
+
+daily standup meeting
+
+testings and integration
+
+sprint review
+
+sprint retrospective
+
+release and deployment
+
+
+
+
+
+
+
+
+
+---
+
+
+
+sprint backlog: particular task
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------\\
+
+
+
+### REGRESSION TESTING
+
+
+
+
+
+JIRA:used for agile process
+
+project ,anagem,nt tool
